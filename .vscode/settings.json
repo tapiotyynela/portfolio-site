@@ -1,0 +1,4 @@
+{
+    "prettier.configPath": "prettierc.json",
+    "editor.formatOnSave": true
+}
