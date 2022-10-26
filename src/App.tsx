@@ -1,16 +1,18 @@
 import React from 'react';
 import { Heading } from './components/Heading';
+import { TechnologyList } from './components/TechnologyList';
 import { TextContainer } from './components/TextContainer';
-import {texts} from './content/texts'
+import { content } from './content/content';
 import './styles/App.sass';
 
 function App() {
-  return (
-    <div className="App">
-      <Heading text="TAPIO TYYNELÄ" />
-      <TextContainer text={texts.introduction}/> 
-    </div>
-  );
+    return (
+        <div className="App">
+            <Heading text="TAPIO TYYNELÄ" />
+            <TextContainer text={content.introduction} />
+            <TechnologyList />
+        </div>
+    );
 }
 
 export default App;
