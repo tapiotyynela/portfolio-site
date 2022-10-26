@@ -1,13 +1,21 @@
 import { LogoListItem as LogoListItemProps } from '../types/LogoListItem/logoListItemTypes';
 import '../styles/LogoListItem.sass';
+import { Counter } from './Counter';
 
-export const LogoListItem = ({ logo, technology }: LogoListItemProps) => {
+export const LogoListItem = ({
+    logo,
+    technology,
+    startedAt,
+}: LogoListItemProps) => {
     return (
-        <div className="logoListItem">
-            <div className="logo">
-                <img src={logo} width={50} height={50} />
+        <div className="logoListItemContainer">
+            <div className="logoListItem">
+                <div className="logo">
+                    <img src={logo} width={50} height={50} />
+                </div>
+                <p className="techText">{technology}</p>
             </div>
-            <p className="techText">{technology}</p>
+            <Counter startTime={new Date(startedAt)} />
         </div>
     );
 };

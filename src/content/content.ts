@@ -14,26 +14,32 @@ export const content: Content = {
         {
             technology: 'ReactJs',
             logo: reactLogo,
+            startedAt: '01.11.2019',
         },
         {
             technology: 'NodeJs',
             logo: nodeLogo,
+            startedAt: '01.11.2019',
         },
         {
             technology: 'React Native',
             logo: reactLogo,
+            startedAt: '01.04.2021',
         },
         {
             technology: 'PostgreSQL',
             logo: psqlLogo,
+            startedAt: '01.04.2021',
         },
         {
             technology: 'MySQL',
             logo: mysqlLogo,
+            startedAt: '01.11.2019',
         },
         {
             technology: 'Google Cloud Platform',
             logo: gcpLogo,
+            startedAt: '01.04.2021',
         },
     ],
 };

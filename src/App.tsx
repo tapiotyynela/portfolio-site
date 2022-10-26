@@ -1,4 +1,5 @@
 import React from 'react';
+import { Counter } from './components/Counter';
 import { Heading } from './components/Heading';
 import { TechnologyList } from './components/TechnologyList';
 import { TextContainer } from './components/TextContainer';
